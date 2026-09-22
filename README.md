@@ -1,6 +1,7 @@
+
 # Fundamentals of Computer Graphics
 
-This repository contains the laboratory assignments completed as part of the **Fundamentals of Computer Graphics (FOCG)** course at **IIT Palakkad**.
+This repository contains the laboratory assignments and project completed as part of the **Fundamentals of Computer Graphics (FOCG)** course at **IIT Palakkad**.
 
 ## Course Labs
 
@@ -20,6 +21,21 @@ This lab focuses on drawing and managing multiple geometric objects using OpenGL
 
 This lab introduces 3D graphics and transformations using OpenGL and GLM. A 3D cube is rendered with six solid-colored faces and eight differently colored vertices. Keyboard arrow keys are used to rotate the cube in different directions using transformation matrices and GLSL uniforms.
 
+### Lab 5 – Cube Color Interpolation
+
+This lab extends the 3D cube implementation by allowing users to interactively change the colors of individual cube nodes. The updated node colors are interpolated across the connected faces, creating color gradients. Keyboard arrow keys are used to rotate the cube, and users can press **I** to enter a node number and its RGB color values through the terminal.
+
+## FOCG Project – Interactive 3D Grid and Bat Model
+
+This project focuses on creating an interactive 3D scene using OpenGL. It features a 3D grid, a movable unit cube, and a bat model constructed using geometric components.
+
+**Features**
+- Interactive movement and rotation of the 3D scene.
+- Movement of the unit cube along different axes.
+- Grid rotation controls.
+- RGB color input through the terminal.
+- Fill and clear operations.
+
 ## Technologies Used
 
 - C++
@@ -36,4 +52,7 @@ Fundamentals_of_Computer_Graphics/
 ├── FOCG_Lab1/
 ├── FOCG_Lab2/
 ├── FOCG_Lab3/
-└── FOCG_Lab4/
+├── FOCG_Lab4/
+├── FOCG_Lab5/
+└── FOCG_Project/
+```
